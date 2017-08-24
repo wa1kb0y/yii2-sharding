@@ -46,11 +46,9 @@ yii2-sharding
         return 'profile';
     }
     
-    public function attributeLabels() {
+    public function attributes() {
         return [
-            'id' => 'ID',
-            'title' => 'Название',
-            'description' => 'Описание',
+            'id', 'title', 'description'
         ];
     }
 ```
