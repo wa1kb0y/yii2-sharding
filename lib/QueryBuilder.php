@@ -9,14 +9,14 @@
 
 namespace axiles89\sharding;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * Построитель запросов
  * Class QueryBuilder
  * @package axiles89\sharding
  */
-class QueryBuilder extends Object
+class QueryBuilder extends BaseObject
 {
     /**
      * Массив названий компонентов db
